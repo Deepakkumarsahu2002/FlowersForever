@@ -2,6 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpeg";
+
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +43,7 @@ const Navigation = () => {
           {/* ✅ Brand Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/assets/logo.jpeg"
+              src={logo}
               alt="Flowers Forever Logo"
               className="h-10 w-auto object-contain hover:scale-105 transition-transform duration-300"
             />
