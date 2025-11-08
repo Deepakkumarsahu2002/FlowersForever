@@ -19,10 +19,16 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
+          
+          {/* ✅ Brand Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <h1 className="font-heading text-4xl text-primary">Flowers Forever</h1>
+            <img
+              src="/assets/logo.png"
+              alt="Flowers Forever Logo"
+              className="h-12 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
