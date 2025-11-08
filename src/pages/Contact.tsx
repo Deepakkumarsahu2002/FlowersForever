@@ -50,7 +50,7 @@ const Contact = () => {
             </a>
 
             {/* Email */}
-            <a href="mailto:hello@flowersforever.com" className="bg-card rounded-3xl p-8 text-center shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-2 group">
+            <a href="mailto:pratikshamail2810@gmail.com" className="bg-card rounded-3xl p-8 text-center shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-2 group">
               <div className="inline-flex items-center justify-center w-20 h-20 bg-accent/10 rounded-full mb-6 group-hover:bg-accent/20 transition-colors">
                 <Mail className="text-accent" size={40} />
               </div>
@@ -58,7 +58,7 @@ const Contact = () => {
               <p className="font-body text-sm text-muted-foreground mb-4">
                 Send us an email for detailed inquiries
               </p>
-              <span className="font-body text-sm text-accent font-medium">flowersforever.in →</span>
+              <span className="font-body text-sm text-accent font-medium">pratikshamail2810@gmail.com →</span>
             </a>
           </div>
 
