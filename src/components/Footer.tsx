@@ -43,9 +43,9 @@ const Footer = () => {
                 <Instagram size={18} />
                 <span>​@flowers._forever._</span>
               </a>
-              <a href="mailto:hello@flowersforever.com" className="flex items-center space-x-2 font-body text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:pratikshamail2810@gmail.com" className="flex items-center space-x-2 font-body text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Mail size={18} />
-                <span>hello@flowersforever.com</span>
+                <span>pratikshamail2810@gmail.com</span>
               </a>
             </div>
           </div>
