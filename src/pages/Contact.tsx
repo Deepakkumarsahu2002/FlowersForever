@@ -58,7 +58,7 @@ const Contact = () => {
               <p className="font-body text-sm text-muted-foreground mb-4">
                 Send us an email for detailed inquiries
               </p>
-              <span className="font-body text-sm text-accent font-medium">pratikshamail2810@gmail.com →</span>
+              <span className="font-body text-sm text-accent font-medium">flowersforeverofficial@gmail.com →</span>
             </a>
           </div>
 
