@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="font-body text-sm text-muted-foreground">© 2025 Flowers Forever. All rights reserved. Designed by Deepak {new Date().getFullYear()} Flowers Forever. All rights reserved. Made with 💐 by Pratiksha
+          <p className="font-body text-sm text-muted-foreground">Copyright © 2025 FLOWERS FOREVER. All rights reserved. Made with 💐 by Pratiksha. Designed by Deepak
           </p>
         </div>
       </div>
