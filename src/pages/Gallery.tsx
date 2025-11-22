@@ -5,67 +5,75 @@ import redRoses from "@/assets/red-roses.jpg";
 import sunflowers from "@/assets/sunflowers.jpg";
 import teddyBouquet from "@/assets/teddy-bouquet.jpg";
 import pastelBlossoms from "@/assets/pastel-blossoms.jpg";
+import teddyBearBouquet from "@/assets/teddy_bear_bouquet.jpg";
+import purpleLilySingle from "@/assets/purple_lily_single.jpg";
+import royalRedRoses from "@/assets/royal_red_roses.jpg";
+import multicolorLilyBouquet from "@/assets/multicolor_lily_bouquet.jpg";
+import peachRosesBouquet from "@/assets/peach_roses_bouquet.jpg";
+import redTulipBouquet from "@/assets/red_tulip_bouquet.jpg";
+import blueLilyBouquet from "@/assets/blue_lily_bouquet.jpg";
+
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const collections = [
-    {
-      title: "Red Rose Romance",
-      description: "Timeless elegance with classic red roses, perfect for expressing love and admiration",
-      image: redRoses,
-    },
-    {
-      title: "Sunflower Smiles",
-      description: "Bright and cheerful sunflower arrangements that bring warmth and happiness",
-      image: sunflowers,
-    },
-    {
-      title: "Teddy Bouquets",
-      description: "Adorable combinations of cuddly teddy bears with beautiful flower arrangements",
-      image: teddyBouquet,
-    },
-    {
-      title: "Pastel Blossoms",
-      description: "Soft and dreamy pastel collections for a gentle, romantic touch",
-      image: pastelBlossoms,
-    },
-    {
+  {
+    title: "Red Rose Romance",
+    description: "Timeless elegance with classic red roses, perfect for expressing love and admiration",
+    image: redRoses,
+  },
+  {
+    title: "Sunflower Smiles",
+    description: "Bright and cheerful sunflower arrangements that bring warmth and happiness",
+    image: sunflowers,
+  },
+  {
+    title: "Teddy Bouquets",
+    description: "Adorable combinations of cuddly teddy bears with beautiful flower arrangements",
+    image: teddyBouquet,
+  },
+  {
+    title: "Pastel Blossoms",
+    description: "Soft and dreamy pastel collections for a gentle, romantic touch",
+    image: pastelBlossoms,
+  },
+  {
     title: "Cuddle Bear Bouquet",
     description: "A charming collection of mini teddy bears wrapped in sweet pink tones—perfect for gifting warmth and cuteness.",
-    image: "teddy_bear_bouquet.jpg"
+    image: teddyBearBouquet,
   },
   {
     title: "Velvet Purple Lily",
     description: "A unique handcrafted velvet lily bouquet paired with elegant paper wrapping for a stylish and modern gift.",
-    image: "purple_lily_single.jpg"
+    image: purpleLilySingle,
   },
   {
     title: "Royal Velvet Roses",
     description: "Premium deep-red velvet roses arranged with golden lighting for an elegant and luxurious gifting experience.",
-    image: "royal_red_roses.jpg"
+    image: royalRedRoses,
   },
   {
     title: "Rainbow Lily Bloom",
     description: "A vibrant mix of handcrafted lilies bursting with colour—perfect to brighten someone’s day.",
-    image: "multicolor_lily_bouquet.jpg"
+    image: multicolorLilyBouquet,
   },
   {
     title: "Blush Rose Elegance",
     description: "Soft peach roses arranged beautifully in premium black wrapping for a classy and romantic look.",
-    image: "peach_roses_bouquet.jpg"
+    image: peachRosesBouquet,
   },
   {
     title: "Scarlet Tulip Charm",
     description: "Bright handcrafted red tulips with subtle green detailing—a simple yet striking bouquet.",
-    image: "red_tulip_bouquet.jpg"
+    image: redTulipBouquet,
   },
   {
     title: "Blue Harmony Bouquet",
     description: "A soothing arrangement of blue lilies and mini flowers wrapped in soft pastel tones for a serene gift aesthetic.",
-    image: "blue_lily_bouquet.jpg"
+    image: blueLilyBouquet,
   }
-  ];
+];
 
   return (
     <div className="min-h-screen font-body">
