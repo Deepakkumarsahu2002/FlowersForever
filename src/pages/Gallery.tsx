@@ -30,6 +30,41 @@ const Gallery = () => {
       description: "Soft and dreamy pastel collections for a gentle, romantic touch",
       image: pastelBlossoms,
     },
+    {
+    title: "Cuddle Bear Bouquet",
+    description: "A charming collection of mini teddy bears wrapped in sweet pink tones—perfect for gifting warmth and cuteness.",
+    image: "teddy_bear_bouquet.jpg"
+  },
+  {
+    title: "Velvet Purple Lily",
+    description: "A unique handcrafted velvet lily bouquet paired with elegant paper wrapping for a stylish and modern gift.",
+    image: "purple_lily_single.jpg"
+  },
+  {
+    title: "Royal Velvet Roses",
+    description: "Premium deep-red velvet roses arranged with golden lighting for an elegant and luxurious gifting experience.",
+    image: "royal_red_roses.jpg"
+  },
+  {
+    title: "Rainbow Lily Bloom",
+    description: "A vibrant mix of handcrafted lilies bursting with colour—perfect to brighten someone’s day.",
+    image: "multicolor_lily_bouquet.jpg"
+  },
+  {
+    title: "Blush Rose Elegance",
+    description: "Soft peach roses arranged beautifully in premium black wrapping for a classy and romantic look.",
+    image: "peach_roses_bouquet.jpg"
+  },
+  {
+    title: "Scarlet Tulip Charm",
+    description: "Bright handcrafted red tulips with subtle green detailing—a simple yet striking bouquet.",
+    image: "red_tulip_bouquet.jpg"
+  },
+  {
+    title: "Blue Harmony Bouquet",
+    description: "A soothing arrangement of blue lilies and mini flowers wrapped in soft pastel tones for a serene gift aesthetic.",
+    image: "blue_lily_bouquet.jpg"
+  }
   ];
 
   return (
