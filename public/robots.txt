@@ -12,3 +12,4 @@ Allow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://flowers-forever.vercel.app/sitemap.xml
